@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <!------ Include the above in your HEAD tag ---------->
+
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- Navigation -->
+    <div class="fixed-top">
+        <header class="topbar">
+            <div class="container">
+                <div class="row">
+                    <!-- social icon-->
+                    <div class="col-sm-12">
+                        <ul class="social-network">
+                            <li><a class="waves-effect waves-dark" href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a class="waves-effect waves-dark" href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a class="waves-effect waves-dark" href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a class="waves-effect waves-dark" href="#"><i class="fa fa-pinterest"></i></a></li>
+                            <li><a class="waves-effect waves-dark" href="#"><i class="fa fa-google-plus"></i></a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </header>
+        <nav class="navbar navbar-expand-lg navbar-dark mx-background-top-linear">
+            <div class="container">
+                <a class="navbar-brand" href="index.html" style="text-transform: uppercase;"> LACODEID.COM</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+
+                    <ul class="navbar-nav ml-auto">
+
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home
+                  <span class="sr-only">(current)</span>
+                </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Fruits</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sea food</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Vegetables</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <hr><br><br>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-12 col-md-8 push-2">
+                <h1>Register Now</h1>
+                <hr><br>
+            </div>
+        </div>
+        <form>
+            <!-- Name -->
+            <div class="row">
+                <div id="name" class="col-12 col-md-8 push-2 form-group row">
+                    <label for="inputEmail" class="col-2 col-form-label">Name</label>
+                    <div class="col-10">
+                        <input type="email" class="form-control form-control-success form-control-danger" id="name" placeholder="Enter Name">
+                        <div id="feedbackEmail" class="form-control-feedback"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- Email -->
+            <div class="row">
+                <div id="email" class="col-12 col-md-8 push-2 form-group row">
+                    <label for="inputEmail" class="col-2 col-form-label">Email</label>
+                    <div class="col-10">
+                        <input type="email" class="form-control form-control-success form-control-danger" id="inputEmail" placeholder="name@example.com">
+                        <div id="feedbackEmail" class="form-control-feedback"></div>
+                        <small class="form-text text-muted">Needs to contain '@' and '.' afterwords and all in lower case.</small>
+                    </div>
+                </div>
+            </div>
+            <!-- Password -->
+            <div class="row">
+                <div id="password" class="col-12 col-md-8 push-2 form-group row">
+                    <label for="inputPassword" class="col-2 col-form-label">Password</label>
+                    <div class="col-10">
+                        <input type="email" class="form-control form-control-success form-control-danger" id="inputPassword" placeholder="name@example.com">
+                        <div id="feedbackPassword" class="form-control-feedback"></div>
+                        <small class="form-text text-muted">8~12 letters including at least one number.</small>
+                    </div>
+                </div>
+            </div>
+            <!-- Confirm Password -->
+            <div class="row">
+                <div id="confirm" class="col-12 col-md-8 push-2 form-group row">
+                    <label for="inputConfirm" class="col-2 col-form-label">Confirm<br>Password</label>
+                    <div class="col-10">
+                        <input type="email" class="form-control form-control-success form-control-danger" id="inputConfirm" placeholder="name@example.com">
+                        <div id="feedbackConfirm" class="form-control-feedback"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- Phone -->
+            <div class="row">
+                <div id="phone" class="col-12 col-md-8 push-2 form-group row">
+                    <label for="inputConfirm" class="col-2 col-form-label">Phone</label>
+                    <div class="col-10">
+                        <input type="text" class="form-control form-control-success form-control-danger" id="phone" placeholder="Enter Phone Number">
+                        <div id="feedbackConfirm" class="form-control-feedback"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- Division -->
+            <div class="row">
+                <div id="div" class="col-12 col-md-8 push-2 form-group row">
+                    <label for="inputConfirm" class="col-2 col-form-label">Division</label>
+                    <div class="col-10">
+                        <label for="divisions">Select Division</label>
+                        <select class="form-control" name="divisions" id="divisions">
+                            <option disabled selected>Select Division</option>
+                            <option value="Barishal">Barishal</option>
+                            <option value="Chattogram">Chattogram</option>
+                            <option value="Dhaka">Dhaka</option>
+                            <option value="Khulna">Khulna</option>
+                            <option value="Mymensingh">Mymensingh</option>
+                            <option value="Rajshahi">Rajshahi</option>
+                            <option value="Rangpur">Rangpur</option>
+                            <option value="Sylhet">Sylhet</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <!-- District -->
+            <div class="row">
+                <div id="div" class="col-12 col-md-8 push-2 form-group row">
+                    <label for="inputConfirm" class="col-2 col-form-label">District</label>
+                    <div class="col-10">
+                        <label for="divisions">Select District</label>
+                        <select class="form-control" name="district">
+                            <option disabled selected>Select District</option>
+                            <option value="Bagerhat">Bagerhat</option>
+                            <option value="Bandarban">Bandarban</option>
+                            <option value="Barguna">Barguna</option>
+                            <option value="Barisal">Barisal</option>
+                            <option value="Bhola">Bhola</option>
+                            <option value="Bogra">Bogra</option>
+                            <option value="Brahmanbaria">Brahmanbaria</option>
+                            <option value="Chandpur">Chandpur</option>
+                            <option value="Chittagong">Chittagong</option>
+                            <option value="Chuadanga">Chuadanga</option>
+                            <option value="Comilla">Comilla</option>
+                            <option value="Cox'sBazar">Cox'sBazar</option>
+                            <option value="Dhaka">Dhaka</option>
+                            <option value="Dinajpur">Dinajpur</option>
+                            <option value="Faridpur">Faridpur</option>
+                            <option value="Feni">Feni</option>
+                            <option value="Gaibandha">Gaibandha</option>
+                            <option value="Gazipur">Gazipur</option>
+                            <option value="Gopalganj">Gopalganj</option>
+                            <option value="Habiganj">Habiganj</option>
+                            <option value="Jaipurhat">Jaipurhat</option>
+                            <option value="Jamalpur">Jamalpur</option>
+                            <option value="Jessore">Jessore</option>
+                            <option value="Jhalokati">Jhalokati</option>
+                            <option value="Jhenaidah">Jhenaidah</option>
+                            <option value="Khagrachari">Khagrachari</option>
+                            <option value="Khulna">Khulna</option>
+                            <option value="Kishoreganj">Kishoreganj</option>
+                            <option value="Kurigram">Kurigram</option>
+                            <option value="Kushtia">Kushtia</option>
+                            <option value="Lakshmipur">Lakshmipur</option>
+                            <option value="Lalmonirhat">Lalmonirhat</option>
+                            <option value="Madaripur">Madaripur</option>
+                            <option value="Magura">Magura</option>
+                            <option value="Manikganj">Manikganj</option>
+                            <option value="Maulvibazar">Maulvibazar</option>
+                            <option value="Meherpur">Meherpur</option>
+                            <option value="Munshiganj">Munshiganj</option>
+                            <option value="Mymensingh">Mymensingh</option>
+                            <option value="Naogaon">Naogaon</option>
+                            <option value="Narail">Narail</option>
+                            <option value="Narayanganj">Narayanganj</option>
+                            <option value="Narsingdi">Narsingdi</option>
+                            <option value="Natore">Natore</option>
+                            <option value="Nawabganj">Nawabganj</option>
+                            <option value="Netrokona">Netrokona</option>
+                            <option value="Nilphamari">Nilphamari</option>
+                            <option value="Noakhali">Noakhali</option>
+                            <option value="Pabna">Pabna</option>
+                            <option value="Panchagarh">Panchagarh</option>
+                            <option value="Patuakhali">Patuakhali</option>
+                            <option value="Pirojpur">Pirojpur</option>
+                            <option value="Rajbari">Rajbari</option>
+                            <option value="Rajshahi">Rajshahi</option>
+                            <option value="Rangamati">Rangamati</option>
+                            <option value="Rangpur">Rangpur</option>
+                            <option value="Satkhira">Satkhira</option>
+                            <option value="Shariatpur">Shariatpur</option>
+                            <option value="Sherpur">Sherpur</option>
+                            <option value="Sirajganj">Sirajganj</option>
+                            <option value="Sunamganj">Sunamganj</option>
+                            <option value="Sylhet">Sylhet</option>
+                            <option value="Tangail">Tangail</option>
+                            <option value="Thakurgaon">Thakurgaon</option>
+                    </select>
+                    </div>
+                </div>
+            </div>
+            <!-- Batch -->
+            <div class="row">
+                <div id="div" class="col-12 col-md-8 push-2 form-group row">
+                    <label for="inputConfirm" class="col-2 col-form-label">Batch</label>
+                    <div class="col-10">
+                        <label for="divisions">Select Batch</label>
+                        <select class="form-control" name="divisions" id="divisions">
+                                <option disabled selected>Select Batch</option>
+                                <option value="1">First Batch</option>
+                                <option value="2">Second Batch</option>
+                                <option value="3">Third Batch</option>
+                                <option value="4">Fourth Batch</option>
+                                <option value="5">Fifth Batch</option>
+                                <option value="6">Sixth Batch</option>
+                                <option value="7">Seventh Batch</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div id="div" class="col-12 col-md-8 push-2 form-group row">
+                    <label for="inputConfirm" class="col-2 col-form-label">Facebook Id</label>
+                    <div class="col-10">
+                        <label for="divisions">Facebook Id</label>
+                        <input class="form-control" type="text" placeholder="Facebook id" name="" id="">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div id="div" class="col-12 col-md-8 push-2 form-group row">
+                    <label for="inputConfirm" class="col-2 col-form-label">Whatsapp</label>
+                    <div class="col-10">
+                        <label for="divisions">Whatsapp</label>
+                        <input class="form-control" placeholder="Whatsapp" type="text" name="" id="">
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <footer class="mainfooter" role="contentinfo">
+        <div class="footer-middle">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <!--Column1-->
+                        <div class="footer-pad">
+                            <h4>Heading 1</h4>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#"></a>
+                                </li>
+                                <li><a href="#">Payment Center</a></li>
+                                <li><a href="#">Contact Directory</a></li>
+                                <li><a href="#">Forms</a></li>
+                                <li><a href="#">News and Updates</a></li>
+                                <li><a href="#">FAQs</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <!--Column1-->
+                        <div class="footer-pad">
+                            <h4>Heading 2</h4>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Website Tutorial</a></li>
+                                <li><a href="#">Accessibility</a></li>
+                                <li><a href="#">Disclaimer</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">FAQs</a></li>
+                                <li><a href="#">Webmaster</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <!--Column1-->
+                        <div class="footer-pad">
+                            <h4>Heading 3</h4>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Parks and Recreation</a></li>
+                                <li><a href="#">Public Works</a></li>
+                                <li><a href="#">Police Department</a></li>
+                                <li><a href="#">Fire</a></li>
+                                <li><a href="#">Mayor and City Council</a></li>
+                                <li>
+                                    <a href="#"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <h4>Follow Us</h4>
+                        <ul class="social-network social-circle">
+                            <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 copy">
+                        <p class="text-center">&copy; Copyright 2018 - Company Name. All rights reserved.</p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>
